@@ -10,9 +10,29 @@
 </head>
 
 <body>
-    <ul>
+    <input type="text" id="todoInput">
+    <button id="addButton">Add ToDo</button>
+
+    <div id="filterButtons">
+        <label>
+            <input type="radio" name="filter" value="all" checked>
+            All
+        </label>
+        <label>
+            <input type="radio" name="filter" value="done">
+            Done
+        </label>
+        <label>
+            <input type="radio" name="filter" value="undone">
+            Undone
+        </label>
+    </div>
+
+    <ul id="todoList">
 
     </ul>
+    <button id="removeButton">Remove Done Todos</button>
+    <button id="removeAllButton">Remove All Todos</button>
 
     <script src="script.js"></script>
 </body>

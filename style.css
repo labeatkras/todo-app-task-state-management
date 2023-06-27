@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#todoInput {
+  margin-bottom: 1rem;
+}
+button {
+  border: 5px bold green;
+  color: green;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+ul#todoList {
+  list-style-type: none;
+}
